@@ -4,10 +4,10 @@
     color: var(--bg-color);
     font-size: 20px; }
 .toy{
-background: var(--main-bg-color);
+    background: var(--main-bg-color);
     position: relative;
 
-border-radius: 5px;
+    border-radius: var(--borr);
     margin: 130px auto 10px auto;
 
 }
@@ -15,8 +15,8 @@ border-radius: 5px;
 body{
     background-size: cover;
     background-repeat: no-repeat;
-      background-attachment: fixed;
- background-image: url(map.jpeg);
+    background-attachment: fixed;
+    background-image: url(map.jpeg);
 
 }
 
@@ -24,7 +24,7 @@ body{
 
     .toy {
         width: 100%;
-padding: 2px;
+        padding: 2px;
     }
 }
 @media (min-width: 700px) {
