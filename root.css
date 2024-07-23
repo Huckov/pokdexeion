@@ -1,10 +1,14 @@
 
 :root{
     --bg-color: white;
+        --borc: gray;
+            --bl: black;
+                --d: #ddd;
     --borstyle: double;
-    --borc: gray;
+    --lock: block;
+    --zero: 0;
     --borr: 5px;
-    --borw: 7px;
+        --borw: 7px;
     --main-bg-color: rgb(255, 255, 255, 0.9);
-
+    --no: none;
 }

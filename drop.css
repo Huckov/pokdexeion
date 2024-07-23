@@ -2,12 +2,12 @@
 
 .dropdown {
     position: relative;
-margin-left: 10px;
-    display: inline-block;
-background-color: transparent;
+    margin-left: 10px;
+    display: var(--lock);
+    background-color: transparent;
 }
 .dropdown-content {
-    display: none;
+    display: var(--no);
     position: absolute;
     min-width: 200px;
     z-index: 1;
@@ -15,23 +15,24 @@ background-color: transparent;
     animation-duration: 1s;
 }
 .dropdown-content a {
-    color: black;
+    color: var(--bl);
     padding:  15px;
     margin-top: 1px;
-    text-decoration: none;
-    display: block;
-    border-style: double;
+    text-decoration: var(--no);
+    display: var(--lock);
+    border-style: var(--borstyle);
     border-color: var(--borc);
-    border-radius: 5px;
-    background-color: white;
+    border-radius: var(--borr);
+    background-color: var(--bg-color);
 }
 
-.dropdown-content a:hover {background-color: #ddd;
+.dropdown-content a:hover
+{background-color: var(--d);
 padding: 20px}
 
 @keyframes example {
     0% {
-        opacity: 0;
+        opacity: var(--zero);
         transform: rotateX(-90deg);
     }
     50% {
@@ -43,6 +44,6 @@ padding: 20px}
     }
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: var(--lock);}
 
 
