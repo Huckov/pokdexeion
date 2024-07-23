@@ -22,6 +22,7 @@ footer, header{
 
 h1{
     text-align: center;
+    color: var(--bg-color);
 }
 header{
     position: absolute;
